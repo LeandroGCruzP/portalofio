@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Header, Link, ProfileInfo, Content, Left, Right } from './styles';
+import { Container, Header, Link, ProfileInfo, Content, Left, Right, Picture } from './styles';
 
 const Main: React.FC = () => {
   return (
@@ -21,7 +21,9 @@ const Main: React.FC = () => {
           </ProfileInfo>
         </Left>
         <Right>
-          <h1>Picture</h1>
+          <Picture>
+            <img src="" alt="" />
+          </Picture>
         </Right>
       </Content>
     </Container>
